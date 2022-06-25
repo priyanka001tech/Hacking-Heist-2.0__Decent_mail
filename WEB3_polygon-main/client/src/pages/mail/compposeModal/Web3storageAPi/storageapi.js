@@ -3,7 +3,7 @@ import {Web3Storage} from "web3.storage"
 
 export async function main (file) {
  
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQxMWI5NWVhOWExZDYwMDIxMUExNEI5OTM5OThkODgzRDQ1Mjg4NjkiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTQzMTMxNDE1NTAsIm5hbWUiOiJTYW1wbGUifQ.-bwmzWGdF8nBJicgBJearfXaKp9AT4s1bTJFU1G1Ej0";
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGQ5ZUYzNTNmMThCNjA1RTJlMUFENmRhRjZBZjM1MEYxMjE3OUEwNUYiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTYxOTYxODk1OTksIm5hbWUiOiJXRWIzc3RvcmFnZSJ9.3oOJYiz6K-kzUpYWmRjWMBaSTAs_L3XowKh20QOCWmI";
   
     if (!token) {
       return console.error('A token is needed. You can create one on https://web3.storage')
