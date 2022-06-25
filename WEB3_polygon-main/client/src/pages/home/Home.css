@@ -1,0 +1,244 @@
+.home-img {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 300vh;
+    filter: blur(4px);
+    overflow-x: hidden;
+    background: url(https://thumbs.dreamstime.com/b/ethereum-cryptocurrency-futuristic-style-cyber-digital-coin-eth-banner-website-presentation-computer-circuit-board-220393721.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.all {
+    background: none;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.grid_d {
+
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.about {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    /* mix-blend-mode: overlay; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.services {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px 15px;
+}
+
+
+.nav-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-align: center;
+
+    color: #FBF3F3;
+    font-family: 'VALORANT', sans-serif;
+    padding: 20px 40px;
+}
+
+.nav-title:hover {
+    color: rgb(81, 172, 233);
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-subtitle {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #F7EFEF;
+}
+
+.nav-subtitle:hover {
+    color: rgb(209, 54, 209);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 3.5rem;
+}
+
+.heading {
+
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFF9F9;
+}
+
+.sub-text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}
+.img-grid {
+    padding-left: 40px;
+    width: 90%;
+    height: 90%;
+    float: right;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    box-shadow: 24px 22px 25px -6px rgba(47, 95, 189, 0.78);
+    -webkit-box-shadow: 24px 22px 25px -6px rgba(47, 95, 189, 0.78);
+    -moz-box-shadow: 24px 22px 25px -6px rgba(47, 95, 189, 0.78);
+}
+
+.grid-btn {
+    background: linear-gradient(180deg, #6D09BB 0%, #680953 100%);
+    border-radius: 20px;
+    padding: 10px 40px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+    box-shadow: 14px 12px 15px -6px rgba(47, 95, 189, 0.78);
+    -webkit-box-shadow: 14px 12px 15px -6px rgba(47, 95, 189, 0.78);
+    -moz-box-shadow: 14px 12px 15px -6px rgba(47, 95, 189, 0.78);
+}
+
+.cen-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text,
+.services-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 5px;
+    color: white;
+}
+
+.about-subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    color: #FDF9F9;
+    padding: 10px 20px;
+}
+
+.services-subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 56px;
+    color: #FDF9F9;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: left;
+}
+
+.box-left {
+    background: rgba(217, 20, 213, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    float: left;
+    width: 65%;
+    margin-left: 0px;
+}
+
+.box-right {
+    background: rgba(33, 115, 239, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    float: right;
+    width: 65%;
+    margin-right: 0px;
+ 
+}
+
+.home-mail{
+    text-decoration: none;
+}
+
+.home-mail:hover{
+    color: rgb(81, 172, 233);
+}
