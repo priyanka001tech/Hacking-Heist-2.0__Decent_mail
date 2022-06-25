@@ -17,13 +17,13 @@
    - React
 - Bootstrap
 - CSS
-
 - Chai
 - Ethereum-waffle
 - Ethers
 - hardhat
 - Polygon
 - Solidity
+- Filecoin 
   
   
 ### Developed by
