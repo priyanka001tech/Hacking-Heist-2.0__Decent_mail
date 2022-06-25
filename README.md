@@ -14,17 +14,15 @@
 
 ### Built Using :
    
-   - React
+- React
 - Bootstrap
 - CSS
-- Chai
-- Ethereum-waffle
-- Ethers
-- hardhat
+- Ether.js
+- Hardhat
 - Polygon
 - Solidity
 - Filecoin 
-  
+- Alchemy
   
 ### Developed by
 
