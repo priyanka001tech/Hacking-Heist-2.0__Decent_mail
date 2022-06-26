@@ -23,6 +23,10 @@
 - Solidity
 - Filecoin 
 - Alchemy
+
+### How it is built :
+The frontend part was built using **React, and Bootstrap**. The fronted part was deployed on Vercel. Smart contract was written in **Solidity** using Remix IDE and **Ether.js** was used to connect the frontend with the smart contract [Deployed on **Polygon Mumbai** using **Alchemy API**]. **Web3.storage API** was used for storing attached files data on persistent long-term storage provided by **Filecoin**
+
   
 ### Developed by
 
